@@ -5,4 +5,6 @@ const a = 123;
 const b = 456;
 // test
 // Hello world!
+const arr = [];
+let arr2 = [];
 ```
