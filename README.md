@@ -8,3 +8,11 @@ const b = 456;
 const arr = [];
 let arr2 = [];
 ```
+*task 2
+```javascript
+function greet() {
+  let str = 'hello world!';
+  
+  return str;
+}
+```
