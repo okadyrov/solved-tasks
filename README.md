@@ -16,3 +16,11 @@ function greet() {
   return str;
 }
 ```
+*task 3
+```javascript
+function helloWorld() {
+  var str = 'Hello World!';
+  console.log(str);
+  return str;
+}//refer to the example and write your first JS function
+```
