@@ -24,3 +24,7 @@ function helloWorld() {
   return str;
 }//refer to the example and write your first JS function
 ```
+task 4
+```javascript
+const howMuchILoveYou = n => ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
+```
