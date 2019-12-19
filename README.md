@@ -24,25 +24,29 @@ function helloWorld() {
   return str;
 }//refer to the example and write your first JS function
 ```
-task 4
+*task 4
 ```javascript
 const howMuchILoveYou = n => ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
 ```
-task 5
+*task 5
 ```javascript
 function iceBrickVolume(radius,bottleLength,rimLength){
 return 2*radius**2(bottleLength - rimLength);
 }
 ```
-task 6
+*task 6
 ```javascript
 function past(h, m, s){
 return h * 3600000 + m * 60000 + s * 1000
 }
 ```
-task 7
+*task 7
 ```javascript
 function otherAngel($a, $b){
 return 180 - $a - $b;
 }
+```
+*task 8
+```javascript
+const angle = n => (n - 2) * 180; 
 ```
