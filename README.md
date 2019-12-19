@@ -50,3 +50,7 @@ return 180 - $a - $b;
 ```javascript
 const angle = n => (n - 2) * 180; 
 ```
+*task 9
+```javascript
+function ifChackSaySo(){return !true;}
+```
