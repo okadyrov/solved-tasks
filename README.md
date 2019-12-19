@@ -54,3 +54,13 @@ const angle = n => (n - 2) * 180;
 ```javascript
 function ifChackSaySo(){return !true;}
 ```
+*task 10
+```javascript
+function boolToWord(){
+if(bool === true){
+return 'Yes';
+}else{
+return'No';
+}
+}
+```
