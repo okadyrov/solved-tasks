@@ -28,3 +28,9 @@ task 4
 ```javascript
 const howMuchILoveYou = n => ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
 ```
+task 5
+```javascript
+function iceBrickVolume(radius,bottleLength,rimLength){
+return 2*radius**2(bottleLength - rimLength);
+}
+```
