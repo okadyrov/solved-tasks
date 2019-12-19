@@ -34,3 +34,9 @@ function iceBrickVolume(radius,bottleLength,rimLength){
 return 2*radius**2(bottleLength - rimLength);
 }
 ```
+task 6
+```javascript
+function past(h, m, s){
+return h * 3600000 + m * 60000 + s * 1000
+}
+```
