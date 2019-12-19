@@ -40,3 +40,9 @@ function past(h, m, s){
 return h * 3600000 + m * 60000 + s * 1000
 }
 ```
+task 7
+```javascript
+function otherAngel($a, $b){
+return 180 - $a - $b;
+}
+```
