@@ -64,3 +64,9 @@ return'No';
 }
 }
 ```
+*task 11
+```javascript
+function typeOfSum(a, b){
+return typeof(a + b);
+}
+```
