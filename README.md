@@ -70,3 +70,15 @@ function typeOfSum(a, b){
 return typeof(a + b);
 }
 ```
+*task 12
+ ```javascript
+function problem(x){
+
+if (typeof x=='number') {
+
+return (x*50)+6;
+} else {
+return "Error";
+}
+}
+```
