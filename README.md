@@ -98,3 +98,7 @@ function sumStr(a,b) {
   return (+a+ +b) + ''
 }
 ```
+* task 16
+```javascript
+const booleanToString = b => `${b}`
+```
