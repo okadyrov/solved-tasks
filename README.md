@@ -92,3 +92,9 @@ function numberToString(num) {
 ```javascript
 const stringToNumber = str => +str;
 ```
+*task 15
+```javascript
+function sumStr(a,b) {
+  return (+a+ +b) + ''
+}
+```
