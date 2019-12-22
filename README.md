@@ -82,3 +82,9 @@ return "Error";
 }
 }
 ```
+*task 13
+```javascript
+function numberToString(num) {
+  return String(num);
+}
+```
