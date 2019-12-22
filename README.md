@@ -88,3 +88,7 @@ function numberToString(num) {
   return String(num);
 }
 ```
+*task 14
+```javascript
+const stringToNumber = str => +str;
+```
