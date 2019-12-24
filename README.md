@@ -120,4 +120,16 @@ const squareOrSquareRoot = array =>
     ? Math.sqrt(el)
     : el**2
  );   
+
+
+```
+*task 19
+```javascript
+const squareDigits = num =>
+  Number(
+    String(num)
+      .split('')
+      .map(digit => digit ** 2)
+      .join('')
+  )
 ```
