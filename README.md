@@ -113,3 +113,11 @@ function squares(x, n) {
   return arr;
 }
 ```
+*task 18
+```javascript
+const squareOrSquareRoot = array => 
+  array.map(el => Number.isInteger(Math.sqrt(el))
+    ? Math.sqrt(el)
+    : el**2
+ );   
+```
