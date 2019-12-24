@@ -133,3 +133,7 @@ const squareDigits = num =>
       .join('')
   )
 ```
+*task 20
+   ```javascript
+const elevator = (left, right, call) => Math.abs(call - left) < Math.abs(call - right) ? 'left' : 'right'
+```
