@@ -102,3 +102,14 @@ function sumStr(a,b) {
 ```javascript
 const booleanToString = b => `${b}`
 ```
+* task 17
+```javascript
+function squares(x, n) {
+  let arr = [];
+  for (let i = 0; i < n; ++i) {
+    arr.push(x)
+    x = Math.pow(x, 2)
+  }
+  return arr;
+}
+```
