@@ -145,3 +145,6 @@ const sixToast = num => Math.abs(num - 6)
 ```javascript
 const findChildren = (santasList, children) => [...new Set(children.filter(name => santasList.includes(name)).sort())]
 ```
+*task 23
+const countWins = (winnerList, countryToCompare) =>
+  winnerList.reduce((total, { country }) => (country === countryToCompare ? total + 1 : total), 0)
