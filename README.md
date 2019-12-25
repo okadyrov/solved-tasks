@@ -141,3 +141,7 @@ const elevator = (left, right, call) => Math.abs(call - left) < Math.abs(call - 
 ```javascript
 const sixToast = num => Math.abs(num - 6) 
 ```
+*task 22
+```javascript
+const findChildren = (santasList, children) => [...new Set(children.filter(name => santasList.includes(name)).sort())]
+```
