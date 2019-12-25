@@ -157,5 +157,9 @@ function well(x) {
   return count ? count > 2 ? 'I smell a series!' : 'Publish!' : 'Fail!';
 }
 ```
+*task 25
+```javascript
+const removeEveryOther = arr => arr.filter((_, i) => i % 2 === 0);
+```
 
   
