@@ -194,5 +194,9 @@ var uniqueInOrder = function(iterable) {
   return iterable.filter((v, i, arr) => arr[i] != arr[i + 1]);
 };
 ```
+* task 30
+```javascript
+const spacify = str => [...str].join(' ')
+```
 
   
