@@ -180,5 +180,11 @@ function isPalindrome(x) {
   return x===x.split``.reverse().join``
 }
 ```
+* task 28
+```javascript
+function solution(str){
+  return str.split('').reverse().join('');  
+}
+```
 
   
