@@ -161,5 +161,17 @@ function well(x) {
 ```javascript
 const removeEveryOther = arr => arr.filter((_, i) => i % 2 === 0);
 ```
+*task 26
+```javascript
+function filterEvenLengthWords(words) {
+  var evenLengths = []
+  for (var i = 0; i < words.length; ++i) {
+    if (words[i].length % 2 === 0) {
+      evenLengths.push(words[i]);
+    }
+  }
+  return evenLengths
+}
+```
 
   
