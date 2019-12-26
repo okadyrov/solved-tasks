@@ -173,5 +173,12 @@ function filterEvenLengthWords(words) {
   return evenLengths
 }
 ```
+*task 27
+```javascript
+function isPalindrome(x) {
+  x=x.toLowerCase()
+  return x===x.split``.reverse().join``
+}
+```
 
   
