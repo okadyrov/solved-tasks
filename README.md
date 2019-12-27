@@ -232,5 +232,12 @@ function determineTime(durations){
   return hours <= 24;
 }
 ```
+* task 33
+```javascript
+function stringToArray(string){
+
+	return string.split(' ');
+}
+```
 
   
