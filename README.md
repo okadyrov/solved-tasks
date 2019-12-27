@@ -239,5 +239,14 @@ function stringToArray(string){
 	return string.split(' ');
 }
 ```
+* task 34
+```javascript
+function reverse(string) {
+  return string
+    .split(" ")
+    .reverse()
+    .join(" ");
+}
+```
 
   
