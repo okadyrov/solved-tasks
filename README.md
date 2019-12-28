@@ -288,5 +288,10 @@ const greet = language => database[language] || database.english
 const duckDuckGoose = (players, goose) =>
   players[(goose - 1) % players.length].name
 ```
+* task 38
+```javascript
+let pairs = { A: "T", T: "A", C: "G", G: "C" };
+const DNAStrand = dna => dna.replace(/./g, c => pairs[c]);
+```
 
   
