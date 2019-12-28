@@ -281,6 +281,12 @@ const database = {
 }
 
 const greet = language => database[language] || database.english
+
+```
+* task 37
+```javascript
+const duckDuckGoose = (players, goose) =>
+  players[(goose - 1) % players.length].name
 ```
 
   
