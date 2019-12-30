@@ -306,5 +306,10 @@ if (!minSalary || !maxSalary) throw new Error('')
 return minSalary*0.9<=maxSalary
 }
 ```
-
+* task 41
+```javascript
+questions.forEach(function(q) {
+  q.usersAnswer = null;
+});
+```
   
