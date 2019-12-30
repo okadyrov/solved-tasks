@@ -320,4 +320,14 @@ function countLanguages(list) {
   return obj;
 }
 ```
+* task 43
+```javascript
+function numObj(s) {
+  const arr = [];
+  s.map(v => arr.push(String.fromCharCode(v)));
+  const obj = Array.from({ length: s.length }, x => (x = {}));
+  obj.map((v, i) => (v[s[i]] = arr[i]));
+  return obj;
+}
+```
   
