@@ -371,3 +371,9 @@ const dontGiveMeFive = (start, end) =>
     .filter(num => !num.toString().includes('5'))
     .length
 ```
+* task 48
+```javascript
+function spEng(s){
+return /english/i.test(s)
+}
+```
