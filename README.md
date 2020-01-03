@@ -363,3 +363,11 @@ function testit(s){
         return sArr.join(" ");
 }
 ``` 
+* task 47
+```javascript
+const dontGiveMeFive = (start, end) =>
+  Array
+    .from(Array(end - start + 1), (_, i) => i + start)
+    .filter(num => !num.toString().includes('5'))
+    .length
+```
