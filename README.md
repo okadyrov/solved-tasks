@@ -377,3 +377,9 @@ function spEng(s){
 return /english/i.test(s)
 }
 ```
+* task 49
+```javascript
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
+```
